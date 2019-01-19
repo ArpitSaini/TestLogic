@@ -8,5 +8,14 @@ namespace TestLogics
 {
     class TestClass
     {
+        public TestClass()
+        {
+
+        }
+
+        public void DoWork()
+        {
+
+        }
     }
 }
