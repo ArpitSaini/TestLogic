@@ -35,6 +35,8 @@ namespace TestLogics
 
             string inputt = "Raspberry,Tomato​,Strawberry​,Apple,Carrot";
 
+            string someChange = "created a new variable " + inputt;
+
             string[] arr = input.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> listData = arr.ToList<string>();
