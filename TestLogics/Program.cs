@@ -11,7 +11,7 @@ namespace TestLogics
         static void Main(string[] args)
         {
 
-            //string input = "1 2 3";
+            string input = "1 2 3";
 
             string[] sep = new string[] { " " };
             var splitData = input.Split(sep, StringSplitOptions.None);
@@ -33,7 +33,7 @@ namespace TestLogics
             int final = f[lastItemInt];
 
 
-            string input = "Raspberry,Tomato​,Strawberry​,Apple,Carrot";
+            string inputt = "Raspberry,Tomato​,Strawberry​,Apple,Carrot";
 
             string[] arr = input.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
 
